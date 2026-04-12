@@ -1,0 +1,2 @@
+# DKUHACK-APP
+Hack marathon
