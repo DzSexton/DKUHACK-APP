@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <!-- App identity -->
+    <key>CFBundleName</key>
+    <string>AuraPD-Voice</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.aura.pd.voice</string>
+    <key>CFBundleVersion</key>
+    <string>1</string>
+    <key>CFBundleShortVersionString</key>
+    <string>1.0.0</string>
+    <key>CFBundleExecutable</key>
+    <string>$(EXECUTABLE_NAME)</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>LSRequiresIPhoneOS</key>
+    <true/>
+
+    <!-- Minimum iOS version -->
+    <key>MinimumOSVersion</key>
+    <string>16.0</string>
+
+    <!-- Required device capabilities -->
+    <key>UIRequiredDeviceCapabilities</key>
+    <array>
+        <string>accelerometer</string>
+        <string>gyroscope</string>
+        <string>microphone</string>
+    </array>
+
+    <!-- Permission usage descriptions (required for App Store / privacy) -->
+    <key>NSMotionUsageDescription</key>
+    <string>AuraPD-Voice uses the accelerometer and gyroscope to monitor motor-state variability indicative of Parkinson's disease symptoms. All processing occurs on-device and no raw sensor data leaves your iPhone.</string>
+
+    <key>NSSpeechRecognitionUsageDescription</key>
+    <string>AuraPD-Voice uses on-device speech recognition to detect the wake phrase "Check my condition" and to capture your verbal consent to motion tracking. No audio or transcripts are transmitted externally.</string>
+
+    <key>NSMicrophoneUsageDescription</key>
+    <string>AuraPD-Voice needs microphone access to listen for the wake word and to capture verbal consent responses. Audio is processed entirely on-device.</string>
+
+    <!-- Supported interface orientations -->
+    <key>UISupportedInterfaceOrientations</key>
+    <array>
+        <string>UIInterfaceOrientationPortrait</string>
+        <string>UIInterfaceOrientationPortraitUpsideDown</string>
+    </array>
+
+    <!-- Scene configuration (SwiftUI lifecycle) -->
+    <key>UIApplicationSceneManifest</key>
+    <dict>
+        <key>UIApplicationSupportsMultipleScenes</key>
+        <false/>
+        <key>UISceneConfigurations</key>
+        <dict/>
+    </dict>
+
+    <!-- Accessibility -->
+    <key>UIAccessibilityLargeTextEnabled</key>
+    <true/>
+    <key>UISupportsDocumentBrowser</key>
+    <false/>
+
+    <!-- Background audio (keeps AVAudioEngine + SFSpeechRecognizer alive when app is backgrounded) -->
+    <key>UIBackgroundModes</key>
+    <array>
+        <string>audio</string>
+    </array>
+
+    <!-- Launch screen storyboard -->
+    <key>UILaunchScreen</key>
+    <dict/>
+</dict>
+</plist>

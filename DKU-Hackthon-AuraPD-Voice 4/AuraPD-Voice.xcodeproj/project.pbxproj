@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0DFD239274064BBCB0B89137 /* PDClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A14C658C0C34FCC833FE160 /* PDClassifier.swift */; };
+		0F2112DB8DD1485CAC7F3520 /* VoiceCommandService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70182EBBEB534F98B70A6890 /* VoiceCommandService.swift */; };
+		1100AABB22334455667788DD /* AppViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1100AABB22334455667788CC /* AppViewModel.swift */; };
+		112E559841424320891229CD /* MotorState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3645D2B5EDC94E89A546D216 /* MotorState.swift */; };
+		1F2477D6E23048CEBBB700B7 /* Speech.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B205A37BF764B1DA7A94663 /* Speech.framework */; };
+		2200CCDD334455667788EEFF /* PDMonitoringAgent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2200CCDD334455667788EEBB /* PDMonitoringAgent.swift */; };
+		2ED825051C5F4509BC09BD95 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 757AB2B484EE44B2B35D1009 /* CoreMotion.framework */; };
+		3311DDEE334455667788FF00 /* GNNPatientMatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3311DDEE334455667788FFAA /* GNNPatientMatcher.swift */; };
+		3E5D2BD5F93B456C88AEE582 /* LocalStorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B96A0F30A044181879FF01C /* LocalStorageService.swift */; };
+		44AA3DB4805D478792B750AA /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23ECA9A6DB1644C1B0EB7373 /* AVFoundation.framework */; };
+		5496DF290B3D47E49C9A63A4 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7B8B87FB284B0797758024 /* MainViewModel.swift */; };
+		7479D4D7B7CA4A61942339FF /* AuraPD_VoiceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B398CF4613684569AD15D87F /* AuraPD_VoiceApp.swift */; };
+		8CC2B2C2E3B54C86BDADFE1D /* AssessmentResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69028FD40C3546A0B95EC849 /* AssessmentResult.swift */; };
+		8E727EA7F130404B9978E058 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33980F1F954648C9ACBE0B56 /* ContentView.swift */; };
+		93A2B04B600642E9AD242F68 /* SpeechService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681308B2FB8D47058F06E8B1 /* SpeechService.swift */; };
+		AABB1122334455667788CCEE /* TremorRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABB1122334455667788CCDD /* TremorRecord.swift */; };
+		ACB2909C63AA44C7BF40AB47 /* ConsentService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F9A684F57649A1A24877BF /* ConsentService.swift */; };
+		AA00112233445566778899CC /* AssessmentResultSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00112233445566778899BB /* AssessmentResultSheet.swift */; };
+		ADCCE7C2AA8A4759934164FA /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3E871FFAEF44A8AD22866B /* DashboardView.swift */; };
+		B2C3D4E5F6A7B8C9D0E1F2A3 /* HumanAvatarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F6A7B8C9D0E1F2 /* HumanAvatarView.swift */; };
+		B675196151AA41E6A862381B /* FeatureExtractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E602A69F44340EF804C7D46 /* FeatureExtractor.swift */; };
+		BA8152CA56394F15BD9B4704 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A14771F6BF748E5B072A9E2 /* SettingsView.swift */; };
+		BBCC1122334455667788DDFF /* ProfileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCC1122334455667788DDEE /* ProfileManager.swift */; };
+		BCFCBE3E7FE6474198633537 /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FAE143ECFC47F8BEAC2D26 /* UserProfile.swift */; };
+		CCDD1122334455667788EE00 /* InsightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDD1122334455667788EEFF /* InsightView.swift */; };
+		DDEE1122334455667788FF11 /* TimelinePlaybackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDEE1122334455667788FF00 /* TimelinePlaybackView.swift */; };
+		EEFF1122334455667788AACC /* PatientProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEFF1122334455667788AABB /* PatientProfile.swift */; };
+		F19075C8FB264962A96A146D /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0535E959A1FD4F9FB367BD24 /* HistoryView.swift */; };
+		F7BF4630272D42F9AF741A71 /* SensorData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133B3CB809A9442F8D8A7CD7 /* SensorData.swift */; };
+		FF001122334455667788BBCC /* PatientProfileDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF001122334455667788AABB /* PatientProfileDetailView.swift */; };
+		FF4A55159115445A8A348B8D /* MotionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A768EAD5514FA9A6EC40AC /* MotionService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0535E959A1FD4F9FB367BD24 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		0B96A0F30A044181879FF01C /* LocalStorageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalStorageService.swift; sourceTree = "<group>"; };
+		1100AABB22334455667788CC /* AppViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppViewModel.swift; sourceTree = "<group>"; };
+		133B3CB809A9442F8D8A7CD7 /* SensorData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensorData.swift; sourceTree = "<group>"; };
+		1A14C658C0C34FCC833FE160 /* PDClassifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDClassifier.swift; sourceTree = "<group>"; };
+		2200CCDD334455667788EEBB /* PDMonitoringAgent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDMonitoringAgent.swift; sourceTree = "<group>"; };
+		23ECA9A6DB1644C1B0EB7373 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		3311DDEE334455667788FFAA /* GNNPatientMatcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GNNPatientMatcher.swift; sourceTree = "<group>"; };
+		33980F1F954648C9ACBE0B56 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3645D2B5EDC94E89A546D216 /* MotorState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotorState.swift; sourceTree = "<group>"; };
+		3B205A37BF764B1DA7A94663 /* Speech.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Speech.framework; path = System/Library/Frameworks/Speech.framework; sourceTree = SDKROOT; };
+		42A768EAD5514FA9A6EC40AC /* MotionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionService.swift; sourceTree = "<group>"; };
+		4A14771F6BF748E5B072A9E2 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		AA00112233445566778899BB /* AssessmentResultSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssessmentResultSheet.swift; sourceTree = "<group>"; };
+		4C3E871FFAEF44A8AD22866B /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		653FD27F9D16407483B46F61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		681308B2FB8D47058F06E8B1 /* SpeechService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechService.swift; sourceTree = "<group>"; };
+		69028FD40C3546A0B95EC849 /* AssessmentResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssessmentResult.swift; sourceTree = "<group>"; };
+		70182EBBEB534F98B70A6890 /* VoiceCommandService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceCommandService.swift; sourceTree = "<group>"; };
+		757AB2B484EE44B2B35D1009 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		8D0CA7FC29094E3099337EF7 /* AuraPD-Voice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AuraPD-Voice.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E602A69F44340EF804C7D46 /* FeatureExtractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureExtractor.swift; sourceTree = "<group>"; };
+		A1B2C3D4E5F6A7B8C9D0E1F2 /* HumanAvatarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HumanAvatarView.swift; sourceTree = "<group>"; };
+		AABB1122334455667788CCDD /* TremorRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TremorRecord.swift; sourceTree = "<group>"; };
+		B398CF4613684569AD15D87F /* AuraPD_VoiceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuraPD_VoiceApp.swift; sourceTree = "<group>"; };
+		BBCC1122334455667788DDEE /* ProfileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileManager.swift; sourceTree = "<group>"; };
+		CCDD1122334455667788EEFF /* InsightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsightView.swift; sourceTree = "<group>"; };
+		D6F9A684F57649A1A24877BF /* ConsentService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsentService.swift; sourceTree = "<group>"; };
+		DDEE1122334455667788FF00 /* TimelinePlaybackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelinePlaybackView.swift; sourceTree = "<group>"; };
+		EEFF1122334455667788AABB /* PatientProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientProfile.swift; sourceTree = "<group>"; };
+		F3FAE143ECFC47F8BEAC2D26 /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
+		FA7B8B87FB284B0797758024 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		FF001122334455667788AABB /* PatientProfileDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientProfileDetailView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B3C4C4A7482941168E7F5412 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2ED825051C5F4509BC09BD95 /* CoreMotion.framework in Frameworks */,
+				1F2477D6E23048CEBBB700B7 /* Speech.framework in Frameworks */,
+				44AA3DB4805D478792B750AA /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		067232FAC87C49B3AC09C56A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3645D2B5EDC94E89A546D216 /* MotorState.swift */,
+				133B3CB809A9442F8D8A7CD7 /* SensorData.swift */,
+				69028FD40C3546A0B95EC849 /* AssessmentResult.swift */,
+				F3FAE143ECFC47F8BEAC2D26 /* UserProfile.swift */,
+				AABB1122334455667788CCDD /* TremorRecord.swift */,
+				EEFF1122334455667788AABB /* PatientProfile.swift */,
+			);
+			name = Models;
+			path = "AuraPD-Voice/Models";
+			sourceTree = "<group>";
+		};
+		37D77B7D2F8CDBB400039FA8 /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				757AB2B484EE44B2B35D1009 /* CoreMotion.framework */,
+				3B205A37BF764B1DA7A94663 /* Speech.framework */,
+				23ECA9A6DB1644C1B0EB7373 /* AVFoundation.framework */,
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
+		5A652B967B7B42AC9BBB5F1A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D0CA7FC29094E3099337EF7 /* AuraPD-Voice.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6FEAEEB04216487A891053F2 = {
+			isa = PBXGroup;
+			children = (
+				934CF5A811BA4DFF8CD424E9 /* App */,
+				067232FAC87C49B3AC09C56A /* Models */,
+				FCC07FD719764893A302D999 /* Intelligence */,
+				7BB28B3CE7184775906DB6F4 /* Services */,
+				BCE6916102D34E29A40B2E52 /* Storage */,
+				C1BA4937C091460FAB7E7E47 /* ViewModels */,
+				722A2B9645E64AFA94AAFDBD /* Views */,
+				C904A08F193F470AB217B9D4 /* Resources */,
+				5A652B967B7B42AC9BBB5F1A /* Products */,
+				37D77B7D2F8CDBB400039FA8 /* Recovered References */,
+			);
+			sourceTree = "<group>";
+		};
+		722A2B9645E64AFA94AAFDBD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				33980F1F954648C9ACBE0B56 /* ContentView.swift */,
+				AA00112233445566778899BB /* AssessmentResultSheet.swift */,
+				4C3E871FFAEF44A8AD22866B /* DashboardView.swift */,
+				A1B2C3D4E5F6A7B8C9D0E1F2 /* HumanAvatarView.swift */,
+				0535E959A1FD4F9FB367BD24 /* HistoryView.swift */,
+				4A14771F6BF748E5B072A9E2 /* SettingsView.swift */,
+				CCDD1122334455667788EEFF /* InsightView.swift */,
+				DDEE1122334455667788FF00 /* TimelinePlaybackView.swift */,
+				FF001122334455667788AABB /* PatientProfileDetailView.swift */,
+			);
+			name = Views;
+			path = "AuraPD-Voice/Views";
+			sourceTree = "<group>";
+		};
+		7BB28B3CE7184775906DB6F4 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				42A768EAD5514FA9A6EC40AC /* MotionService.swift */,
+				681308B2FB8D47058F06E8B1 /* SpeechService.swift */,
+				70182EBBEB534F98B70A6890 /* VoiceCommandService.swift */,
+				D6F9A684F57649A1A24877BF /* ConsentService.swift */,
+				BBCC1122334455667788DDEE /* ProfileManager.swift */,
+			);
+			name = Services;
+			path = "AuraPD-Voice/Services";
+			sourceTree = "<group>";
+		};
+		934CF5A811BA4DFF8CD424E9 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				B398CF4613684569AD15D87F /* AuraPD_VoiceApp.swift */,
+			);
+			name = App;
+			path = "AuraPD-Voice/App";
+			sourceTree = "<group>";
+		};
+		BCE6916102D34E29A40B2E52 /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				0B96A0F30A044181879FF01C /* LocalStorageService.swift */,
+			);
+			name = Storage;
+			path = "AuraPD-Voice/Storage";
+			sourceTree = "<group>";
+		};
+		C1BA4937C091460FAB7E7E47 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				FA7B8B87FB284B0797758024 /* MainViewModel.swift */,
+				1100AABB22334455667788CC /* AppViewModel.swift */,
+			);
+			name = ViewModels;
+			path = "AuraPD-Voice/ViewModels";
+			sourceTree = "<group>";
+		};
+		C904A08F193F470AB217B9D4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				653FD27F9D16407483B46F61 /* Info.plist */,
+			);
+			name = Resources;
+			path = "AuraPD-Voice/Resources";
+			sourceTree = "<group>";
+		};
+		FCC07FD719764893A302D999 /* Intelligence */ = {
+			isa = PBXGroup;
+			children = (
+				9E602A69F44340EF804C7D46 /* FeatureExtractor.swift */,
+				1A14C658C0C34FCC833FE160 /* PDClassifier.swift */,
+				2200CCDD334455667788EEBB /* PDMonitoringAgent.swift */,
+				3311DDEE334455667788FFAA /* GNNPatientMatcher.swift */,
+			);
+			name = Intelligence;
+			path = "AuraPD-Voice/Intelligence";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B0CDF5EB6C64B1D98DDB6BF /* AuraPD-Voice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB903C01EC97443682BD3C04 /* Build configuration list for PBXNativeTarget "AuraPD-Voice" */;
+			buildPhases = (
+				8C133DFBC339443CB52C7021 /* Sources */,
+				B3C4C4A7482941168E7F5412 /* Frameworks */,
+				CF235192BD794F64A97849C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AuraPD-Voice";
+			packageProductDependencies = (
+			);
+			productName = "AuraPD-Voice";
+			productReference = 8D0CA7FC29094E3099337EF7 /* AuraPD-Voice.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A720522A62A4C698E6307F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					2B0CDF5EB6C64B1D98DDB6BF = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = E364486CCF854BB88CE65DC0 /* Build configuration list for PBXProject "AuraPD-Voice" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6FEAEEB04216487A891053F2;
+			productRefGroup = 5A652B967B7B42AC9BBB5F1A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B0CDF5EB6C64B1D98DDB6BF /* AuraPD-Voice */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF235192BD794F64A97849C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8C133DFBC339443CB52C7021 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7479D4D7B7CA4A61942339FF /* AuraPD_VoiceApp.swift in Sources */,
+				112E559841424320891229CD /* MotorState.swift in Sources */,
+				F7BF4630272D42F9AF741A71 /* SensorData.swift in Sources */,
+				8CC2B2C2E3B54C86BDADFE1D /* AssessmentResult.swift in Sources */,
+				BCFCBE3E7FE6474198633537 /* UserProfile.swift in Sources */,
+				B675196151AA41E6A862381B /* FeatureExtractor.swift in Sources */,
+				0DFD239274064BBCB0B89137 /* PDClassifier.swift in Sources */,
+				2200CCDD334455667788EEFF /* PDMonitoringAgent.swift in Sources */,
+				3311DDEE334455667788FF00 /* GNNPatientMatcher.swift in Sources */,
+				FF4A55159115445A8A348B8D /* MotionService.swift in Sources */,
+				93A2B04B600642E9AD242F68 /* SpeechService.swift in Sources */,
+				0F2112DB8DD1485CAC7F3520 /* VoiceCommandService.swift in Sources */,
+				ACB2909C63AA44C7BF40AB47 /* ConsentService.swift in Sources */,
+				3E5D2BD5F93B456C88AEE582 /* LocalStorageService.swift in Sources */,
+				5496DF290B3D47E49C9A63A4 /* MainViewModel.swift in Sources */,
+				1100AABB22334455667788DD /* AppViewModel.swift in Sources */,
+				8E727EA7F130404B9978E058 /* ContentView.swift in Sources */,
+				AA00112233445566778899CC /* AssessmentResultSheet.swift in Sources */,
+				ADCCE7C2AA8A4759934164FA /* DashboardView.swift in Sources */,
+				B2C3D4E5F6A7B8C9D0E1F2A3 /* HumanAvatarView.swift in Sources */,
+				F19075C8FB264962A96A146D /* HistoryView.swift in Sources */,
+				BA8152CA56394F15BD9B4704 /* SettingsView.swift in Sources */,
+				AABB1122334455667788CCEE /* TremorRecord.swift in Sources */,
+				BBCC1122334455667788DDFF /* ProfileManager.swift in Sources */,
+				CCDD1122334455667788EE00 /* InsightView.swift in Sources */,
+				DDEE1122334455667788FF11 /* TimelinePlaybackView.swift in Sources */,
+				EEFF1122334455667788AACC /* PatientProfile.swift in Sources */,
+				FF001122334455667788BBCC /* PatientProfileDetailView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B3B194D1F34340698E0A2E45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_NS_ASSERTIONS = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D44A6D92CEC4403A81802E04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5P7AAT993M;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "AuraPD-Voice/Resources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aura.pd.voice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		E78675280C6D4FF29DB7E5C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		ECB5003012FE42F582990897 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5P7AAT993M;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "AuraPD-Voice/Resources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aura.pd.voice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E364486CCF854BB88CE65DC0 /* Build configuration list for PBXProject "AuraPD-Voice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3B194D1F34340698E0A2E45 /* Debug */,
+				E78675280C6D4FF29DB7E5C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB903C01EC97443682BD3C04 /* Build configuration list for PBXNativeTarget "AuraPD-Voice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D44A6D92CEC4403A81802E04 /* Debug */,
+				ECB5003012FE42F582990897 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1A720522A62A4C698E6307F1 /* Project object */;
+}
